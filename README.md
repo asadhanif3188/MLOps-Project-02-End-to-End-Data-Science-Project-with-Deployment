@@ -1,4 +1,4 @@
-# MLOps Project 02 -- End-to-End Data Science -Project with Deployment
+# MLOps Project 02 -- End-to-End Data Science Project with Deployment
 
 
 

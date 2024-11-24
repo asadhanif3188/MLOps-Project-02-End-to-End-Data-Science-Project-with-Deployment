@@ -34,7 +34,6 @@ list_of_files = [
 
     # f"src/{project_name}/exception/__init__.py",
     # f"src/{project_name}/logger/__init__.py",
-    "app.py",
     "Dockerfile",
     "requirements.txt",
     
