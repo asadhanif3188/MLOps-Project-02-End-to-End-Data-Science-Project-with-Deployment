@@ -66,7 +66,7 @@ conda create -p venv python==3.12
 3. **Activate Environment:**
 To activate conda virtual environment use following command.
 ```
-conda activate <path-of-venv>\venv 
+conda activate venv\ 
 ```
 
 4. **Deactivate Environment:**
