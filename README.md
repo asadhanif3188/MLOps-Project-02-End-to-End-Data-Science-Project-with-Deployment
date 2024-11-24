@@ -1,6 +1,11 @@
 # MLOps Project 02 -- End-to-End Data Science -Project with Deployment
 
 
+
+***Note:*** *This project showcases a comprehensive skill set for implementing an end-to-end data science or machine learning solution.*
+
+
+----------------------------
 ## Key Features
 This project highlights the following key features:
 
@@ -45,9 +50,17 @@ Workflow automation with tools like Apache Airflow, Prefect, or Dagster for stre
 
 
 
+## Environment Setup Instructions
+1. **Clone the repo:**
+```
+git clone <repo-link>  
+cd MLOps-Project-02-End-to-End-Data-Science-Project-with-Deployment  
+```
+
+2. **Environment Setup:**
+Setup conda virtual environment using following command.
+```
+conda create -p venv python==3.12 
+```
 
 
-
-
-
-***Note:*** *This project showcases a comprehensive skill set for implementing an end-to-end data science or machine learning solution.*
