@@ -15,6 +15,9 @@ Automated pipelines for data collection, validation, cleaning, and transformatio
 - **Modular Programming:**
 Well-structured, reusable, and maintainable code components for scalability and ease of debugging.
 
+- **Standardized Project Structure:**
+A `template.py` script has been developed to automate the creation of a consistent and production-ready project directory and file structure.
+
 - **Model Training and Evaluation:**
 Efficient workflows for model training, hyperparameter tuning, and performance evaluation using robust metrics.
 
@@ -69,7 +72,13 @@ To activate conda virtual environment use following command.
 conda activate venv\ 
 ```
 
-4. **Deactivate Environment:**
+4. **Install Libraries:**
+To install libraries use following command.
+```
+pip install -r requirements.txt
+```
+
+5. **Deactivate Environment:**
 To deactivate conda virtual environment use following command.
 ```
 conda deactivate
