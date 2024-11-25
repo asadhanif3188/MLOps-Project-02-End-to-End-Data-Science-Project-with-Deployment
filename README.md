@@ -57,7 +57,7 @@ Workflow automation with tools like Apache Airflow, Prefect, or Dagster for stre
 3. Data Transformation
     - Feature Engineering 
     - Data Preprocessing 
-4. Model Training 
+4. Model Trainer
 5. Model Evaluation 
 
 

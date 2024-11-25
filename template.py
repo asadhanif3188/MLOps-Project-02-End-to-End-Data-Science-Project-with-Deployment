@@ -10,9 +10,10 @@ list_of_files = [
     f"src/{project_name}/__init__.py",
 
     f"src/{project_name}/components/__init__.py",
-    # f"src/{project_name}/components/data_ingestion.py",
-    # f"src/{project_name}/components/data_transformation.py",
-    # f"src/{project_name}/components/model_trainer.py",
+    f"src/{project_name}/components/data_ingestion.py",
+    f"src/{project_name}/components/data_transformation.py",
+    f"src/{project_name}/components/data_validation.py",
+    f"src/{project_name}/components/model_trainer.py",
     # f"src/{project_name}/components/model_evaluation.py",
     # f"src/{project_name}/components/model_pusher.py",
 
@@ -24,8 +25,9 @@ list_of_files = [
 
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/pipeline/data_ingestion_pipeline.py",
-    # f"src/{project_name}/pipeline/prediction_pipeline.py",
-    # f"src/{project_name}/pipeline/training_pipeline.py",
+    f"src/{project_name}/pipeline/data_validation_pipeline.py",
+    f"src/{project_name}/pipeline/data_transformation_pipeline.py",
+    f"src/{project_name}/pipeline/model_trainer_pipeline.py",
 
     f"src/{project_name}/constants/__init__.py",
 
