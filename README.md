@@ -60,14 +60,14 @@ Workflow automation with tools like Apache Airflow, Prefect, or Dagster for stre
 
 
 ### Workflow Steps
-1. Update config.yaml
-2. Update schema.yaml
-3. Update params.yaml
+1. Update `config/config.yaml`
+2. Update `schema.yaml`
+3. Update `params.yaml`
 4. Update the entity
 5. Update the configuration manager in src config 
 6. Update the components 
 7. Update the pipeline 
-7. Update the main.py
+7. Update the `main.py`
 
 
 
