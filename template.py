@@ -23,6 +23,7 @@ list_of_files = [
     f"src/{project_name}/config/configuration.py",
 
     f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/pipeline/data_ingestion_pipeline.py",
     # f"src/{project_name}/pipeline/prediction_pipeline.py",
     # f"src/{project_name}/pipeline/training_pipeline.py",
 
