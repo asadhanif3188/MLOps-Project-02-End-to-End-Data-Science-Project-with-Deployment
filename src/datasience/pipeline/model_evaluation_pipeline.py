@@ -9,7 +9,7 @@ class ModelEvaluationTrainingPipeline:
     def __init__(self):
         pass
 
-    def evaluate_model(self):
+    def initiate_model_evaluation(self):
         try:
             with open(Path("artifacts/data_validation/status.txt"), "r") as f:
                 status = f.read().split(" ")[-1]
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
         model_evaluation_obj = ModelEvaluationTrainingPipeline()
-        model_evaluation_obj.evaluate_model()
+        model_evaluation_obj.initiate_model_evaluation()
         logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
     except Exception as e:
         logger.exception(e)
