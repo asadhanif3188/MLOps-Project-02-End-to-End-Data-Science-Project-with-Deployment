@@ -3,6 +3,7 @@ from src.datasience.pipeline.data_ingestion_pipeline import DataIngestionTrainin
 from src.datasience.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
 from src.datasience.pipeline.data_transformation_pipeline import DataTransformationTrainingPipeline
 from src.datasience.pipeline.model_trainer_pipeline import ModelTrainerTrainingPipeline
+from src.datasience.pipeline.model_evaluation_pipeline import ModelEvaluationTrainingPipeline
 
 # from src.datasience.utils.common import read_yaml
 # from pathlib import Path
@@ -57,6 +58,17 @@ try:
     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
     model_trainer_obj = ModelTrainerTrainingPipeline()
     model_trainer_obj.initiate_model_trainer()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
+# ------------------------------------------------------------
+STAGE_NAME = "Model Evaluation Stage"
+
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    model_evaluation_obj = ModelEvaluationTrainingPipeline()
+    model_evaluation_obj.evaluate_model()
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
     logger.exception(e)

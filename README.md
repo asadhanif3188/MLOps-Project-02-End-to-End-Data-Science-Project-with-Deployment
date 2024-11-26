@@ -59,6 +59,8 @@ Workflow automation with tools like Apache Airflow, Prefect, or Dagster for stre
     - Data Preprocessing 
 4. Model Trainer
 5. Model Evaluation 
+    - MLFLow
+    - DagsHub 
 
 
 ### Workflow Steps
