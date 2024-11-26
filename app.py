@@ -51,7 +51,7 @@ def index():
             prediction_pipeline_obj = PredictionPipeline()
             predict = prediction_pipeline_obj.predict(data)
 
-            return render_template('results.html', prediction = str(predict))
+            return render_template('results.html', prediction = str(predict[0]))
 
         except Exception as e:
             print('The Exception message is: ', e)
