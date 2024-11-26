@@ -42,6 +42,7 @@ list_of_files = [
     
     "config/config.yaml",
     
+    "app.py",
     "main.py",
     "setup.py",
 
@@ -50,7 +51,7 @@ list_of_files = [
 
     "research/research.ipynb",
     "templates/index.html",
-    # "templates/result.html",
+    "templates/result.html",
 ]
 
 # Script to create the files and directories 
