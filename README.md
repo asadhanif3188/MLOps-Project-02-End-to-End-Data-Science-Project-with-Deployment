@@ -2,6 +2,36 @@
 
 ***Note:*** *This project showcases a comprehensive skill set for implementing an end-to-end data science or machine learning solution.*
 
+## Problem Statement 
+The quality of wine is influenced by various chemical properties, making it essential to establish an accurate and efficient method for predicting wine quality. The objective of this project is to build a machine learning model that predicts the quality of wine based on its physicochemical attributes.
+
+Using the [Wine Quality Dataset](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset), this project focuses on a classification problem where the goal is to assign a quality score (from a predefined range) to a wine sample. By leveraging data preprocessing, feature engineering, and model training techniques, the solution aims to assist wine producers and quality control teams in automating the evaluation process, ensuring consistency and efficiency in quality assessment.
+
+## Few Screenshots
+
+Running ML Application as a Flask Application. 
+<img src="images/1.flask-app-run.png" width="80%" />
+
+Hiting the training endpoint of Flask app, `127.0.0.1:8080/train`
+<img src="images/2.ml-model-training-url.png" width="80%" />
+
+Model's experiment tracking UI at DagsHub.
+<img src="images/3.expertiment-tracking-on-dagshub.png" width="80%" />
+
+Model's experiment tracking MLFlow UI.
+<img src="images/4.experiment-tracking-on-mlflow.png" width="80%" />
+
+Model's parameters and metrics
+<img src="images/5.model-parameters-and-metrics.png" width="80%" />
+
+Registered model at MLFlow
+<img src="images/6.registered-model.png" width="80%" />
+
+Basic UI for data input for prediction.
+<img src="images/7.data-for-prediction.png" width="80%" />
+
+Predicted result demo.
+<img src="images/8.prediction-result.png" width="80%" />
 
 ----------------------------
 ## Key Features
